@@ -7,7 +7,9 @@
  */
 int main(void)
 {
+
 	char a = 'a';
+
 	while (a <= 'z')
 	{
 		if (a != 'q' && a != 'e')
