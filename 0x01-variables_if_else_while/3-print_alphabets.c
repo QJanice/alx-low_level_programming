@@ -11,7 +11,6 @@
 int main(void)
 {
 	char a, b;
-
 	a = 'a';
 	b = 'A';
 
@@ -19,7 +18,6 @@ int main(void)
 	{
 		putchar(a);
 		a++;
-
 	}
 	while (b <= 'Z')
 	{
@@ -27,6 +25,5 @@ int main(void)
 		b++;
 	} 
 	putchar('\n');
-
 	return (0);
 } 
