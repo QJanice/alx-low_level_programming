@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-/* write your line of code */
 int main(void)
 {
 int n;
