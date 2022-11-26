@@ -1,13 +1,14 @@
 #include "main.h"
+
 #define MAXSIZE 1204
 #define SE STDERR_FILENO
 
 /**
- * main - create the copy bash script
- * @ac: argument count
- * @av: arguments as strings
- * Return: 0
- */
+* main - create the copy bash script
+* @ac: argument count
+* @av: arguments as strings
+* Return: 0
+*/
 int main(int ac, char *av[])
 {
 	int input_fd, output_fd, istatus, ostatus;
@@ -46,4 +47,5 @@ int main(int ac, char *av[])
 	ostatus = close(output_fd);
 	if (ostatus == -1)
 		dprintf(SE, "Error: Can't close fd %d\n", output_fd), exit(100);
+	return (0);
 }
